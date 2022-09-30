@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(/langs.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  padding: 25px;
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.7));
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+div{
+  font-family: monospace;
+  font-size: 24px;
+  margin: 0 5px 0 0;
+}
+#login{
+  
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 20px 0 0 0;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#login:hover{
+  background-color: limegreen;
+  transition: .5s;
+}
+select{
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+select:hover{
+  background-color: lightgreen;
+  transition: .5s;
+}
+input{
+  padding: 5px;
+  border-radius: 5px;
+}
